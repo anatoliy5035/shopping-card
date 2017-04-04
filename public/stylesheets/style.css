@@ -1,0 +1,16 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.thumbnail .description {
+  color: #549fff;
+}
+
+.price {
+  font-weight: bold;
+  margin-top: 8px;
+}
