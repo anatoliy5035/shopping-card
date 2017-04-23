@@ -19,23 +19,6 @@ module.exports = function Cart(oldCart) {
         console.log(this);
     };
 
-    var Ccart = {
-        items: {
-            id: {
-                item: obj,
-                qty: 0,
-                price: 150
-            },
-            id: {
-                item: obj,
-                qty: 0,
-                price: 150
-            }
-        },
-        totalQty: 15,
-        totalPrice: 150
-    }
-
     this.reduceOne = function (id) {
       this.items[id].qty--;
       this.items[id].price -= this.items[id].item.price;
